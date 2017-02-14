@@ -1,134 +1,51 @@
-[{"zeppelin-bubblechart": {
+[{"metaData": {
+    "_createdAt": "2017-02-14T04:01:55+09:00",
+    "_lambdaContainerId": "715035"
+  },
+"zeppelin-highcharts-heatmap": {
     "0.0.1": {
       "type": "VISUALIZATION",
-      "name": "zeppelin-bubblechart",
+      "name": "zeppelin-highcharts-heatmap",
       "version": "0.0.1",
-      "published": "2017-01-08T09:56:42.707Z",
-      "artifact": "zeppelin-bubblechart@0.0.1",
-      "author": "leemoonsoo",
-      "description": "Animated bubble chart",
-      "license": "BSD-2-Clause",
-      "icon": "<i class=\"fa fa-question-circle\"></i>"
+      "published": "2017-02-10T09:52:22.292Z",
+      "artifact": "zeppelin-highcharts-heatmap@0.0.1",
+      "author": "1ambda",
+      "description": "Heatmap Charts for Apache Zeppelin using highcharts.js",
+      "license": "SEE LICENSE IN <LICENSE>",
+      "icon": "<i class=\"fa fa-th\"></i>"
     },
     "0.0.2": {
       "type": "VISUALIZATION",
-      "name": "zeppelin-bubblechart",
+      "name": "zeppelin-highcharts-heatmap",
       "version": "0.0.2",
-      "published": "2017-01-08T09:58:44.775Z",
-      "artifact": "zeppelin-bubblechart@0.0.2",
-      "author": "leemoonsoo",
-      "description": "Animated bubble chart",
-      "license": "BSD-2-Clause",
-      "icon": "<i class=\"fa fa-question-circle\"></i>"
+      "published": "2017-02-11T00:47:58.959Z",
+      "artifact": "zeppelin-highcharts-heatmap@0.0.2",
+      "author": "1ambda",
+      "description": "Heatmap Charts for Apache Zeppelin using highcharts.js",
+      "license": "SEE LICENSE IN <LICENSE>",
+      "icon": "<i class=\"fa fa-th\"></i>"
     },
     "0.0.3": {
       "type": "VISUALIZATION",
-      "name": "zeppelin-bubblechart",
+      "name": "zeppelin-highcharts-heatmap",
       "version": "0.0.3",
-      "published": "2017-01-08T10:41:15.275Z",
-      "artifact": "zeppelin-bubblechart@0.0.3",
-      "author": "leemoonsoo",
-      "description": "Animated bubble chart",
-      "license": "BSD-2-Clause",
-      "icon": "<i class=\"fa fa-question-circle\"></i>"
-    },
-    "latest": {
-      "type": "VISUALIZATION",
-      "name": "zeppelin-bubblechart",
-      "version": "0.0.4",
-      "published": "2017-01-23T20:42:34.373Z",
-      "artifact": "zeppelin-bubblechart@0.0.4",
-      "author": "leemoonsoo",
-      "description": "Animated bubble chart",
-      "license": "BSD-2-Clause",
-      "icon": "<svg viewBox='0 0 70 70'><circle cx='26' cy='28' stroke='black' style='stroke-width: 1px;' r='25' fill='seagreen'/><circle cx='42' cy='44' stroke='black' style='stroke-width: 1px;' r='20' fill='DodgerBlue'/><circle cx='54' cy='24' stroke='black' style='stroke-width: 1px;' r='15' fill='crimson'/></svg>"
-    }
-  },
-"zeppelin-echo-spell": {
-    "1.0.0": {
-      "type": "SPELL",
-      "name": "zeppelin-echo-spell",
-      "version": "1.0.0",
-      "published": "2017-01-25T04:43:45.676Z",
-      "artifact": "zeppelin-echo-spell@1.0.0",
+      "published": "2017-02-11T00:57:46.652Z",
+      "artifact": "zeppelin-highcharts-heatmap@0.0.3",
       "author": "1ambda",
-      "description": "Zeppelin Echo Spell (example)",
-      "license": "Apache-2.0",
-      "icon": "<i class='fa fa-repeat'></i>"
-    },
-    "1.0.1": {
-      "type": "SPELL",
-      "name": "zeppelin-echo-spell",
-      "version": "1.0.1",
-      "published": "2017-01-30T21:34:24.255Z",
-      "artifact": "zeppelin-echo-spell@1.0.1",
-      "author": "1ambda",
-      "description": "Zeppelin Echo Spell (example)",
-      "license": "Apache-2.0",
-      "icon": "<i class=\"fa fa-question-circle\"></i>"
-    },
-    "1.0.2": {
-      "type": "SPELL",
-      "name": "zeppelin-echo-spell",
-      "version": "1.0.2",
-      "published": "2017-01-31T02:06:54.457Z",
-      "artifact": "zeppelin-echo-spell@1.0.2",
-      "author": "1ambda",
-      "description": "Zeppelin Echo Spell (example)",
-      "license": "Apache-2.0",
-      "icon": "<i class='fa fa-repeat'></i>",
-      "spell": {"magic": "%echo", "usage": "%echo <TEXT>"}
-    },
-    "1.0.3": {
-      "type": "SPELL",
-      "name": "zeppelin-echo-spell",
-      "version": "1.0.3",
-      "published": "2017-02-01T02:35:16.537Z",
-      "artifact": "zeppelin-echo-spell@1.0.3",
-      "author": "1ambda",
-      "description": "Zeppelin Echo Spell (example)",
-      "license": "Apache-2.0",
-      "icon": "<i class='fa fa-repeat'></i>",
-      "config": {
-        "echo": {
-          "type": "number",
-          "description": "How many times to repeat",
-          "defaultValue": 1
-        }
-      },
-      "spell": {"magic": "%echo", "usage": "%echo <TEXT>"}
-    },
-    "latest": {
-      "type": "SPELL",
-      "name": "zeppelin-echo-spell",
-      "version": "1.0.4",
-      "published": "2017-02-01T02:38:02.497Z",
-      "artifact": "zeppelin-echo-spell@1.0.4",
-      "author": "1ambda",
-      "description": "Zeppelin Echo Spell (example)",
-      "license": "Apache-2.0",
-      "icon": "<i class='fa fa-repeat'></i>",
-      "config": {
-        "repeat": {
-          "type": "number",
-          "description": "How many times to repeat",
-          "defaultValue": 1
-        }
-      },
-      "spell": {"magic": "%echo", "usage": "%echo <TEXT>"}
-    }
-  },
-"zeppelin-highcharts-bubble": {
-    "latest": {
-      "type": "VISUALIZATION",
-      "name": "zeppelin-highcharts-bubble",
-      "version": "0.0.1",
-      "published": "2017-02-14T02:53:19.092Z",
-      "artifact": "zeppelin-highcharts-bubble@0.0.1",
-      "author": "1ambda",
-      "description": "Bubble Chart for Apache Zeppelin using highcharts.js",
+      "description": "Heatmap Charts for Apache Zeppelin using highcharts.js",
       "license": "SEE LICENSE IN <LICENSE>",
-      "icon": "<i class=\"fa fa-dot-circle-o\"></i>"
+      "icon": "<i class=\"fa fa-th\"></i>"
+    },
+    "latest": {
+      "type": "VISUALIZATION",
+      "name": "zeppelin-highcharts-heatmap",
+      "version": "0.0.4",
+      "published": "2017-02-11T07:47:56.338Z",
+      "artifact": "zeppelin-highcharts-heatmap@0.0.4",
+      "author": "1ambda",
+      "description": "Heatmap Charts for Apache Zeppelin using highcharts.js",
+      "license": "SEE LICENSE IN <LICENSE>",
+      "icon": "<i class=\"fa fa-th\"></i>"
     }
   },
 "zeppelin-highcharts-spline": {
@@ -254,76 +171,78 @@
       "icon": "<i class=\"fa fa-vine\"></i>"
     }
   },
-"zeppelin-flowchart-spell": {
-    "0.0.1": {
+"zeppelin-echo-spell": {
+    "1.0.0": {
       "type": "SPELL",
-      "name": "zeppelin-flowchart-spell",
-      "version": "0.0.1",
-      "published": "2017-02-11T02:13:08.734Z",
-      "artifact": "zeppelin-flowchart-spell@0.0.1",
+      "name": "zeppelin-echo-spell",
+      "version": "1.0.0",
+      "published": "2017-01-25T04:43:45.676Z",
+      "artifact": "zeppelin-echo-spell@1.0.0",
       "author": "1ambda",
-      "description": "Draw flowchart using http://flowchart.js.org",
-      "license": "MIT",
-      "icon": "<i class='fa fa-random'></i>",
-      "spell": {"magic": "%flowchart", "usage": "%flowchart <TEXT>"}
+      "description": "Zeppelin Echo Spell (example)",
+      "license": "Apache-2.0",
+      "icon": "<i class='fa fa-repeat'></i>"
+    },
+    "1.0.1": {
+      "type": "SPELL",
+      "name": "zeppelin-echo-spell",
+      "version": "1.0.1",
+      "published": "2017-01-30T21:34:24.255Z",
+      "artifact": "zeppelin-echo-spell@1.0.1",
+      "author": "1ambda",
+      "description": "Zeppelin Echo Spell (example)",
+      "license": "Apache-2.0",
+      "icon": "<i class=\"fa fa-question-circle\"></i>"
+    },
+    "1.0.2": {
+      "type": "SPELL",
+      "name": "zeppelin-echo-spell",
+      "version": "1.0.2",
+      "published": "2017-01-31T02:06:54.457Z",
+      "artifact": "zeppelin-echo-spell@1.0.2",
+      "author": "1ambda",
+      "description": "Zeppelin Echo Spell (example)",
+      "license": "Apache-2.0",
+      "icon": "<i class='fa fa-repeat'></i>",
+      "spell": {"magic": "%echo", "usage": "%echo <TEXT>"}
+    },
+    "1.0.3": {
+      "type": "SPELL",
+      "name": "zeppelin-echo-spell",
+      "version": "1.0.3",
+      "published": "2017-02-01T02:35:16.537Z",
+      "artifact": "zeppelin-echo-spell@1.0.3",
+      "author": "1ambda",
+      "description": "Zeppelin Echo Spell (example)",
+      "license": "Apache-2.0",
+      "icon": "<i class='fa fa-repeat'></i>",
+      "config": {
+        "echo": {
+          "type": "number",
+          "description": "How many times to repeat",
+          "defaultValue": 1
+        }
+      },
+      "spell": {"magic": "%echo", "usage": "%echo <TEXT>"}
     },
     "latest": {
       "type": "SPELL",
-      "name": "zeppelin-flowchart-spell",
-      "version": "0.0.2",
-      "published": "2017-02-13T11:05:56.651Z",
-      "artifact": "zeppelin-flowchart-spell@0.0.2",
+      "name": "zeppelin-echo-spell",
+      "version": "1.0.4",
+      "published": "2017-02-01T02:38:02.497Z",
+      "artifact": "zeppelin-echo-spell@1.0.4",
       "author": "1ambda",
-      "description": "Draw flowchart using http://flowchart.js.org",
-      "license": "MIT",
-      "icon": "<i class='fa fa-random'></i>",
-      "spell": {"magic": "%flowchart", "usage": "%flowchart <TEXT>"}
-    }
-  },
-"zeppelin-highcharts-heatmap": {
-    "0.0.1": {
-      "type": "VISUALIZATION",
-      "name": "zeppelin-highcharts-heatmap",
-      "version": "0.0.1",
-      "published": "2017-02-10T09:52:22.292Z",
-      "artifact": "zeppelin-highcharts-heatmap@0.0.1",
-      "author": "1ambda",
-      "description": "Heatmap Charts for Apache Zeppelin using highcharts.js",
-      "license": "SEE LICENSE IN <LICENSE>",
-      "icon": "<i class=\"fa fa-th\"></i>"
-    },
-    "0.0.2": {
-      "type": "VISUALIZATION",
-      "name": "zeppelin-highcharts-heatmap",
-      "version": "0.0.2",
-      "published": "2017-02-11T00:47:58.959Z",
-      "artifact": "zeppelin-highcharts-heatmap@0.0.2",
-      "author": "1ambda",
-      "description": "Heatmap Charts for Apache Zeppelin using highcharts.js",
-      "license": "SEE LICENSE IN <LICENSE>",
-      "icon": "<i class=\"fa fa-th\"></i>"
-    },
-    "0.0.3": {
-      "type": "VISUALIZATION",
-      "name": "zeppelin-highcharts-heatmap",
-      "version": "0.0.3",
-      "published": "2017-02-11T00:57:46.652Z",
-      "artifact": "zeppelin-highcharts-heatmap@0.0.3",
-      "author": "1ambda",
-      "description": "Heatmap Charts for Apache Zeppelin using highcharts.js",
-      "license": "SEE LICENSE IN <LICENSE>",
-      "icon": "<i class=\"fa fa-th\"></i>"
-    },
-    "latest": {
-      "type": "VISUALIZATION",
-      "name": "zeppelin-highcharts-heatmap",
-      "version": "0.0.4",
-      "published": "2017-02-11T07:47:56.338Z",
-      "artifact": "zeppelin-highcharts-heatmap@0.0.4",
-      "author": "1ambda",
-      "description": "Heatmap Charts for Apache Zeppelin using highcharts.js",
-      "license": "SEE LICENSE IN <LICENSE>",
-      "icon": "<i class=\"fa fa-th\"></i>"
+      "description": "Zeppelin Echo Spell (example)",
+      "license": "Apache-2.0",
+      "icon": "<i class='fa fa-repeat'></i>",
+      "config": {
+        "repeat": {
+          "type": "number",
+          "description": "How many times to repeat",
+          "defaultValue": 1
+        }
+      },
+      "spell": {"magic": "%echo", "usage": "%echo <TEXT>"}
     }
   },
 "zeppelin-markdown-spell": {
@@ -373,5 +292,90 @@
       "description": "Column Range Chart for Apache Zeppelin using highcharts.js",
       "license": "SEE LICENSE IN <LICENSE>",
       "icon": "<i class=\"fa fa-align-center\"></i>"
+    }
+  },
+"zeppelin-highcharts-bubble": {
+    "latest": {
+      "type": "VISUALIZATION",
+      "name": "zeppelin-highcharts-bubble",
+      "version": "0.0.1",
+      "published": "2017-02-14T02:53:19.092Z",
+      "artifact": "zeppelin-highcharts-bubble@0.0.1",
+      "author": "1ambda",
+      "description": "Bubble Chart for Apache Zeppelin using highcharts.js",
+      "license": "SEE LICENSE IN <LICENSE>",
+      "icon": "<i class=\"fa fa-dot-circle-o\"></i>"
+    }
+  },
+"zeppelin-flowchart-spell": {
+    "0.0.1": {
+      "type": "SPELL",
+      "name": "zeppelin-flowchart-spell",
+      "version": "0.0.1",
+      "published": "2017-02-11T02:13:08.734Z",
+      "artifact": "zeppelin-flowchart-spell@0.0.1",
+      "author": "1ambda",
+      "description": "Draw flowchart using http://flowchart.js.org",
+      "license": "MIT",
+      "icon": "<i class='fa fa-random'></i>",
+      "spell": {"magic": "%flowchart", "usage": "%flowchart <TEXT>"}
+    },
+    "latest": {
+      "type": "SPELL",
+      "name": "zeppelin-flowchart-spell",
+      "version": "0.0.2",
+      "published": "2017-02-13T11:05:56.651Z",
+      "artifact": "zeppelin-flowchart-spell@0.0.2",
+      "author": "1ambda",
+      "description": "Draw flowchart using http://flowchart.js.org",
+      "license": "MIT",
+      "icon": "<i class='fa fa-random'></i>",
+      "spell": {"magic": "%flowchart", "usage": "%flowchart <TEXT>"}
+    }
+  },
+"zeppelin-bubblechart": {
+    "0.0.1": {
+      "type": "VISUALIZATION",
+      "name": "zeppelin-bubblechart",
+      "version": "0.0.1",
+      "published": "2017-01-08T09:56:42.707Z",
+      "artifact": "zeppelin-bubblechart@0.0.1",
+      "author": "leemoonsoo",
+      "description": "Animated bubble chart",
+      "license": "BSD-2-Clause",
+      "icon": "<i class=\"fa fa-question-circle\"></i>"
+    },
+    "0.0.2": {
+      "type": "VISUALIZATION",
+      "name": "zeppelin-bubblechart",
+      "version": "0.0.2",
+      "published": "2017-01-08T09:58:44.775Z",
+      "artifact": "zeppelin-bubblechart@0.0.2",
+      "author": "leemoonsoo",
+      "description": "Animated bubble chart",
+      "license": "BSD-2-Clause",
+      "icon": "<i class=\"fa fa-question-circle\"></i>"
+    },
+    "0.0.3": {
+      "type": "VISUALIZATION",
+      "name": "zeppelin-bubblechart",
+      "version": "0.0.3",
+      "published": "2017-01-08T10:41:15.275Z",
+      "artifact": "zeppelin-bubblechart@0.0.3",
+      "author": "leemoonsoo",
+      "description": "Animated bubble chart",
+      "license": "BSD-2-Clause",
+      "icon": "<i class=\"fa fa-question-circle\"></i>"
+    },
+    "latest": {
+      "type": "VISUALIZATION",
+      "name": "zeppelin-bubblechart",
+      "version": "0.0.4",
+      "published": "2017-01-23T20:42:34.373Z",
+      "artifact": "zeppelin-bubblechart@0.0.4",
+      "author": "leemoonsoo",
+      "description": "Animated bubble chart",
+      "license": "BSD-2-Clause",
+      "icon": "<svg viewBox='0 0 70 70'><circle cx='26' cy='28' stroke='black' style='stroke-width: 1px;' r='25' fill='seagreen'/><circle cx='42' cy='44' stroke='black' style='stroke-width: 1px;' r='20' fill='DodgerBlue'/><circle cx='54' cy='24' stroke='black' style='stroke-width: 1px;' r='15' fill='crimson'/></svg>"
     }
   }}]
