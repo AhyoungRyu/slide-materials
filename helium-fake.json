@@ -327,46 +327,72 @@
         }
       }
     },
-    "zeppelin-zrinterpreter_2.11":{
-      "0.7.0":{
+    "zeppelin-angular":{
+      "latest":{
         "type":"INTERPRETER",
-        "name":"zeppelin-zrinterpreter_2.11",
+        "name":"zeppelin-angular",
         "version":"0.7.0",
-        "published":"2017-02-02T17:54:17+09:00",
-        "artifact":"zeppelin-zrinterpreter_2.11@0.7.0",
-        "description":"R Interpreter for Zeppelin",
+        "published":"2017-02-02T17:31:42+09:00",
+        "artifact":"zeppelin-angular@0.7.0",
+        "description":"Zeppelin: Angular interpreter",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-zrinterpreter_2.11"
+        "artifactId":"zeppelin-angular"
       },
       "0.6.2":{
         "type":"INTERPRETER",
-        "name":"zeppelin-zrinterpreter_2.11",
+        "name":"zeppelin-angular",
         "version":"0.6.2",
-        "published":"2016-10-12T19:09:29+09:00",
-        "artifact":"zeppelin-zrinterpreter_2.11@0.6.2",
-        "description":"R Interpreter for Zeppelin",
+        "published":"2016-10-12T18:43:01+09:00",
+        "artifact":"zeppelin-angular@0.6.2",
+        "description":"Zeppelin: Angular interpreter",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-zrinterpreter_2.11"
+        "artifactId":"zeppelin-angular"
       },
       "0.6.1":{
         "type":"INTERPRETER",
-        "name":"zeppelin-zrinterpreter_2.11",
+        "name":"zeppelin-angular",
         "version":"0.6.1",
-        "published":"2016-08-12T20:23:50+09:00",
-        "artifact":"zeppelin-zrinterpreter_2.11@0.6.1",
+        "published":"2016-08-12T20:12:05+09:00",
+        "artifact":"zeppelin-angular@0.6.1",
+        "description":"Zeppelin: Angular interpreter",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-angular"
+      },
+      "0.6.0":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-angular",
+        "version":"0.6.0",
+        "published":"2016-06-28T08:21:42+09:00",
+        "artifact":"zeppelin-angular@0.6.0",
+        "description":"Zeppelin: Angular interpreter",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-angular"
+      }
+    },
+    "zeppelin-zrinterpreter":{
+      "latest":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-zrinterpreter",
+        "version":"0.6.0",
+        "published":"2016-06-28T08:30:31+09:00",
+        "artifact":"zeppelin-zrinterpreter@0.6.0",
         "description":"R Interpreter for Zeppelin",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-zrinterpreter_2.11"
+        "artifactId":"zeppelin-zrinterpreter"
       }
     },
     "zeppelin-zrinterpreter_2.10":{
-      "0.7.0":{
+      "latest":{
         "type":"INTERPRETER",
         "name":"zeppelin-zrinterpreter_2.10",
         "version":"0.7.0",
@@ -403,180 +429,92 @@
         "artifactId":"zeppelin-zrinterpreter_2.10"
       }
     },
-    "zeppelin-elasticsearch":{
-      "0.7.0":{
+    "zeppelin-livy":{
+      "latest":{
         "type":"INTERPRETER",
-        "name":"zeppelin-elasticsearch",
+        "name":"zeppelin-livy",
         "version":"0.7.0",
-        "published":"2017-02-02T17:36:36+09:00",
-        "artifact":"zeppelin-elasticsearch@0.7.0",
-        "description":"Zeppelin: Elasticsearch interpreter",
+        "published":"2017-02-02T17:39:38+09:00",
+        "artifact":"zeppelin-livy@0.7.0",
+        "description":"Zeppelin: Livy interpreter",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-elasticsearch"
+        "artifactId":"zeppelin-livy"
       },
       "0.6.2":{
         "type":"INTERPRETER",
-        "name":"zeppelin-elasticsearch",
+        "name":"zeppelin-livy",
         "version":"0.6.2",
-        "published":"2016-10-12T18:44:51+09:00",
-        "artifact":"zeppelin-elasticsearch@0.6.2",
-        "description":"Zeppelin: Elasticsearch interpreter",
+        "published":"2016-10-12T18:47:26+09:00",
+        "artifact":"zeppelin-livy@0.6.2",
+        "description":"Zeppelin: Livy interpreter",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-elasticsearch"
+        "artifactId":"zeppelin-livy"
       },
       "0.6.1":{
         "type":"INTERPRETER",
-        "name":"zeppelin-elasticsearch",
+        "name":"zeppelin-livy",
         "version":"0.6.1",
-        "published":"2016-08-12T20:12:58+09:00",
-        "artifact":"zeppelin-elasticsearch@0.6.1",
-        "description":"Zeppelin: Elasticsearch interpreter",
+        "published":"2016-08-12T20:14:21+09:00",
+        "artifact":"zeppelin-livy@0.6.1",
+        "description":"Zeppelin: Livy interpreter",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-elasticsearch"
+        "artifactId":"zeppelin-livy"
       },
       "0.6.0":{
         "type":"INTERPRETER",
-        "name":"zeppelin-elasticsearch",
+        "name":"zeppelin-livy",
         "version":"0.6.0",
-        "published":"2016-06-28T08:22:04+09:00",
-        "artifact":"zeppelin-elasticsearch@0.6.0",
-        "description":"Zeppelin: Elasticsearch interpreter",
+        "published":"2016-06-28T08:23:23+09:00",
+        "artifact":"zeppelin-livy@0.6.0",
+        "description":"Zeppelin: Livy interpreter",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-elasticsearch"
+        "artifactId":"zeppelin-livy"
       }
     },
-    "zeppelin-alluxio":{
-      "0.7.0":{
+    "zeppelin-zrinterpreter_2.11":{
+      "latest":{
         "type":"INTERPRETER",
-        "name":"zeppelin-alluxio",
+        "name":"zeppelin-zrinterpreter_2.11",
         "version":"0.7.0",
-        "published":"2017-02-02T17:31:08+09:00",
-        "artifact":"zeppelin-alluxio@0.7.0",
-        "description":"Zeppelin: Alluxio interpreter",
+        "published":"2017-02-02T17:54:17+09:00",
+        "artifact":"zeppelin-zrinterpreter_2.11@0.7.0",
+        "description":"R Interpreter for Zeppelin",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-alluxio"
+        "artifactId":"zeppelin-zrinterpreter_2.11"
       },
       "0.6.2":{
         "type":"INTERPRETER",
-        "name":"zeppelin-alluxio",
+        "name":"zeppelin-zrinterpreter_2.11",
         "version":"0.6.2",
-        "published":"2016-10-12T18:42:47+09:00",
-        "artifact":"zeppelin-alluxio@0.6.2",
-        "description":"Zeppelin: Alluxio interpreter",
+        "published":"2016-10-12T19:09:29+09:00",
+        "artifact":"zeppelin-zrinterpreter_2.11@0.6.2",
+        "description":"R Interpreter for Zeppelin",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-alluxio"
+        "artifactId":"zeppelin-zrinterpreter_2.11"
       },
       "0.6.1":{
         "type":"INTERPRETER",
-        "name":"zeppelin-alluxio",
+        "name":"zeppelin-zrinterpreter_2.11",
         "version":"0.6.1",
-        "published":"2016-08-12T20:11:59+09:00",
-        "artifact":"zeppelin-alluxio@0.6.1",
-        "description":"Zeppelin: Alluxio interpreter",
+        "published":"2016-08-12T20:23:50+09:00",
+        "artifact":"zeppelin-zrinterpreter_2.11@0.6.1",
+        "description":"R Interpreter for Zeppelin",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-alluxio"
-      },
-      "0.6.0":{
-        "type":"INTERPRETER",
-        "name":"zeppelin-alluxio",
-        "version":"0.6.0",
-        "published":"2016-06-28T08:21:34+09:00",
-        "artifact":"zeppelin-alluxio@0.6.0",
-        "description":"Zeppelin: Alluxio interpreter",
-        "license":"Apache-2.0",
-        "icon":"<i class=\"fa fa-rocket\"></i>",
-        "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-alluxio"
-      }
-    },
-    "zeppelin-cassandra_2.11":{
-      "0.7.0":{
-        "type":"INTERPRETER",
-        "name":"zeppelin-cassandra_2.11",
-        "version":"0.7.0",
-        "published":"2017-02-02T17:35:53+09:00",
-        "artifact":"zeppelin-cassandra_2.11@0.7.0",
-        "description":"Zeppelin cassandra support",
-        "license":"Apache-2.0",
-        "icon":"<i class=\"fa fa-rocket\"></i>",
-        "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-cassandra_2.11"
-      },
-      "0.6.2":{
-        "type":"INTERPRETER",
-        "name":"zeppelin-cassandra_2.11",
-        "version":"0.6.2",
-        "published":"2016-10-12T18:44:03+09:00",
-        "artifact":"zeppelin-cassandra_2.11@0.6.2",
-        "description":"Zeppelin cassandra support",
-        "license":"Apache-2.0",
-        "icon":"<i class=\"fa fa-rocket\"></i>",
-        "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-cassandra_2.11"
-      },
-      "0.6.1":{
-        "type":"INTERPRETER",
-        "name":"zeppelin-cassandra_2.11",
-        "version":"0.6.1",
-        "published":"2016-08-12T20:12:35+09:00",
-        "artifact":"zeppelin-cassandra_2.11@0.6.1",
-        "description":"Zeppelin cassandra support",
-        "license":"Apache-2.0",
-        "icon":"<i class=\"fa fa-rocket\"></i>",
-        "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-cassandra_2.11"
-      }
-    },
-    "zeppelin-ignite_2.10":{
-      "0.7.0":{
-        "type":"INTERPRETER",
-        "name":"zeppelin-ignite_2.10",
-        "version":"0.7.0",
-        "published":"2017-02-02T17:37:41+09:00",
-        "artifact":"zeppelin-ignite_2.10@0.7.0",
-        "description":"Zeppelin: Apache Ignite interpreter",
-        "license":"Apache-2.0",
-        "icon":"<i class=\"fa fa-rocket\"></i>",
-        "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-ignite_2.10"
-      },
-      "0.6.2":{
-        "type":"INTERPRETER",
-        "name":"zeppelin-ignite_2.10",
-        "version":"0.6.2",
-        "published":"2016-10-12T18:45:59+09:00",
-        "artifact":"zeppelin-ignite_2.10@0.6.2",
-        "description":"Zeppelin: Apache Ignite interpreter",
-        "license":"Apache-2.0",
-        "icon":"<i class=\"fa fa-rocket\"></i>",
-        "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-ignite_2.10"
-      },
-      "0.6.1":{
-        "type":"INTERPRETER",
-        "name":"zeppelin-ignite_2.10",
-        "version":"0.6.1",
-        "published":"2016-08-12T20:13:35+09:00",
-        "artifact":"zeppelin-ignite_2.10@0.6.1",
-        "description":"Zeppelin: Apache Ignite interpreter",
-        "license":"Apache-2.0",
-        "icon":"<i class=\"fa fa-rocket\"></i>",
-        "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-ignite_2.10"
+        "artifactId":"zeppelin-zrinterpreter_2.11"
       }
     }
   }
