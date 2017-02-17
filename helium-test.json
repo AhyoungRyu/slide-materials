@@ -1,5 +1,61 @@
 [
   {
+    "zeppelin-flowchart-spell":{
+      "0.0.1":{
+        "type":"SPELL",
+        "name":"zeppelin-flowchart-spell",
+        "version":"0.0.1",
+        "published":"2017-02-11T02:13:08.734Z",
+        "artifact":"zeppelin-flowchart-spell@0.0.1",
+        "author":"1ambda",
+        "description":"Draw flowchart using http://flowchart.js.org",
+        "license":"MIT",
+        "icon":"<i class='fa fa-random'></i>",
+        "spell":{
+          "magic":"%flowchart",
+          "usage":"%flowchart <TEXT>"
+        }
+      },
+      "latest":{
+        "type":"SPELL",
+        "name":"zeppelin-flowchart-spell",
+        "version":"0.0.2",
+        "published":"2017-02-13T11:05:56.651Z",
+        "artifact":"zeppelin-flowchart-spell@0.0.2",
+        "author":"1ambda",
+        "description":"Draw flowchart using http://flowchart.js.org",
+        "license":"MIT",
+        "icon":"<i class='fa fa-random'></i>",
+        "spell":{
+          "magic":"%flowchart",
+          "usage":"%flowchart <TEXT>"
+        }
+      }
+    },
+    "zeppelin-highcharts-columnrange":{
+      "0.0.1":{
+        "type":"VISUALIZATION",
+        "name":"zeppelin-highcharts-columnrange",
+        "version":"0.0.1",
+        "published":"2017-02-11T08:09:32.044Z",
+        "artifact":"zeppelin-highcharts-columnrange@0.0.1",
+        "author":"1ambda",
+        "description":"Column Range Chart for Apache Zeppelin using highcharts.js",
+        "license":"SEE LICENSE IN <LICENSE>",
+        "icon":"<i class=\"fa fa-align-center\"></i>"
+      },
+      "latest":{
+        "type":"VISUALIZATION",
+        "name":"zeppelin-highcharts-columnrange",
+        "version":"0.0.4",
+        "published":"2017-02-11T17:05:07.668Z",
+        "artifact":"zeppelin-highcharts-columnrange@0.0.4",
+        "author":"1ambda",
+        "description":"Column Range Chart for Apache Zeppelin using highcharts.js",
+        "license":"SEE LICENSE IN <LICENSE>",
+        "icon":"<i class=\"fa fa-align-center\"></i>"
+      }
+    },
     "zeppelin-bubblechart":{
       "0.0.1":{
         "type":"VISUALIZATION",
@@ -46,35 +102,27 @@
         "icon":"<svg viewBox='0 0 70 70'><circle cx='26' cy='28' stroke='black' style='stroke-width: 1px;' r='25' fill='seagreen'/><circle cx='42' cy='44' stroke='black' style='stroke-width: 1px;' r='20' fill='DodgerBlue'/><circle cx='54' cy='24' stroke='black' style='stroke-width: 1px;' r='15' fill='crimson'/></svg>"
       }
     },
-    "zeppelin-flowchart-spell":{
-      "0.0.1":{
-        "type":"SPELL",
-        "name":"zeppelin-flowchart-spell",
-        "version":"0.0.1",
-        "published":"2017-02-11T02:13:08.734Z",
-        "artifact":"zeppelin-flowchart-spell@0.0.1",
-        "author":"1ambda",
-        "description":"Draw flowchart using http://flowchart.js.org",
-        "license":"MIT",
-        "icon":"<i class='fa fa-random'></i>",
-        "spell":{
-          "magic":"%flowchart",
-          "usage":"%flowchart <TEXT>"
-        }
-      },
+    "zeppelin-echo-spell":{
       "latest":{
         "type":"SPELL",
-        "name":"zeppelin-flowchart-spell",
-        "version":"0.0.2",
-        "published":"2017-02-13T11:05:56.651Z",
-        "artifact":"zeppelin-flowchart-spell@0.0.2",
+        "name":"zeppelin-echo-spell",
+        "version":"1.0.4",
+        "published":"2017-02-01T02:38:02.497Z",
+        "artifact":"zeppelin-echo-spell@1.0.4",
         "author":"1ambda",
-        "description":"Draw flowchart using http://flowchart.js.org",
-        "license":"MIT",
-        "icon":"<i class='fa fa-random'></i>",
+        "description":"Zeppelin Echo Spell (example)",
+        "license":"Apache-2.0",
+        "icon":"<i class='fa fa-repeat'></i>",
+        "config":{
+          "repeat":{
+            "type":"number",
+            "description":"How many times to repeat",
+            "defaultValue":1
+          }
+        },
         "spell":{
-          "magic":"%flowchart",
-          "usage":"%flowchart <TEXT>"
+          "magic":"%echo",
+          "usage":"%echo <TEXT>"
         }
       }
     },
@@ -89,6 +137,30 @@
         "description":"Bubble Chart for Apache Zeppelin using highcharts.js",
         "license":"SEE LICENSE IN <LICENSE>",
         "icon":"<svg id=\"Слой_1\" style=\"enable-background:new 0 0 512 512;\" version=\"1.1\" viewBox=\"0 0 512 512\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><style type=\"text/css\"> .st0{fill:none;stroke:#FFFFFF;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st1{fill:#248139;stroke:#FFFFFF;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st2{fill:#F5BE40;stroke:#FFFFFF;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st3{fill:#32A9B8;stroke:#FFFFFF;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st4{fill:#CF3722;stroke:#FFFFFF;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} </style><g><polyline class=\"st0\" points=\"33.9,54.6 33.9,485.6 473,485.6  \"/><circle class=\"st1\" cx=\"100.5\" cy=\"414.8\" r=\"35.7\"/><circle class=\"st2\" cx=\"186.4\" cy=\"293.1\" r=\"55.1\"/><circle class=\"st3\" cx=\"314.7\" cy=\"379.1\" r=\"32.2\"/><circle class=\"st4\" cx=\"322.7\" cy=\"141.9\" r=\"66\"/><circle class=\"st1\" cx=\"421\" cy=\"283\" r=\"40.7\"/><circle class=\"st3\" cx=\"123.7\" cy=\"152.1\" r=\"23.2\"/></g></svg>"
+      }
+    },
+    "zeppelin-highcharts-heatmap":{
+      "0.0.4":{
+        "type":"VISUALIZATION",
+        "name":"zeppelin-highcharts-heatmap",
+        "version":"0.0.4",
+        "published":"2017-02-11T07:47:56.338Z",
+        "artifact":"zeppelin-highcharts-heatmap@0.0.4",
+        "author":"1ambda",
+        "description":"Heatmap Charts for Apache Zeppelin using highcharts.js",
+        "license":"SEE LICENSE IN <LICENSE>",
+        "icon":"<i class=\"fa fa-th\"></i>"
+      },
+      "latest":{
+        "type":"VISUALIZATION",
+        "name":"zeppelin-highcharts-heatmap",
+        "version":"0.0.5",
+        "published":"2017-02-14T12:46:02.732Z",
+        "artifact":"zeppelin-highcharts-heatmap@0.0.5",
+        "author":"1ambda",
+        "description":"Heatmap Charts for Apache Zeppelin using highcharts.js",
+        "license":"SEE LICENSE IN <LICENSE>",
+        "icon":"<i class=\"fa fa-th\"></i>"
       }
     },
     "zeppelin-highcharts-scatterplot":{
@@ -255,132 +327,136 @@
         }
       }
     },
-    "zeppelin-echo-spell":{
-      "latest":{
-        "type":"SPELL",
-        "name":"zeppelin-echo-spell",
-        "version":"1.0.4",
-        "published":"2017-02-01T02:38:02.497Z",
-        "artifact":"zeppelin-echo-spell@1.0.4",
-        "author":"1ambda",
-        "description":"Zeppelin Echo Spell (example)",
-        "license":"Apache-2.0",
-        "icon":"<i class='fa fa-repeat'></i>",
-        "config":{
-          "repeat":{
-            "type":"number",
-            "description":"How many times to repeat",
-            "defaultValue":1
-          }
-        },
-        "spell":{
-          "magic":"%echo",
-          "usage":"%echo <TEXT>"
-        }
-      }
-    },
-    "zeppelin-highcharts-columnrange":{
-      "0.0.1":{
-        "type":"VISUALIZATION",
-        "name":"zeppelin-highcharts-columnrange",
-        "version":"0.0.1",
-        "published":"2017-02-11T08:09:32.044Z",
-        "artifact":"zeppelin-highcharts-columnrange@0.0.1",
-        "author":"1ambda",
-        "description":"Column Range Chart for Apache Zeppelin using highcharts.js",
-        "license":"SEE LICENSE IN <LICENSE>",
-        "icon":"<i class=\"fa fa-align-center\"></i>"
-      },
-      "latest":{
-        "type":"VISUALIZATION",
-        "name":"zeppelin-highcharts-columnrange",
-        "version":"0.0.4",
-        "published":"2017-02-11T17:05:07.668Z",
-        "artifact":"zeppelin-highcharts-columnrange@0.0.4",
-        "author":"1ambda",
-        "description":"Column Range Chart for Apache Zeppelin using highcharts.js",
-        "license":"SEE LICENSE IN <LICENSE>",
-        "icon":"<i class=\"fa fa-align-center\"></i>"
-      }
-    },
-    "zeppelin-highcharts-heatmap":{
-      "0.0.4":{
-        "type":"VISUALIZATION",
-        "name":"zeppelin-highcharts-heatmap",
-        "version":"0.0.4",
-        "published":"2017-02-11T07:47:56.338Z",
-        "artifact":"zeppelin-highcharts-heatmap@0.0.4",
-        "author":"1ambda",
-        "description":"Heatmap Charts for Apache Zeppelin using highcharts.js",
-        "license":"SEE LICENSE IN <LICENSE>",
-        "icon":"<i class=\"fa fa-th\"></i>"
-      },
-      "latest":{
-        "type":"VISUALIZATION",
-        "name":"zeppelin-highcharts-heatmap",
-        "version":"0.0.5",
-        "published":"2017-02-14T12:46:02.732Z",
-        "artifact":"zeppelin-highcharts-heatmap@0.0.5",
-        "author":"1ambda",
-        "description":"Heatmap Charts for Apache Zeppelin using highcharts.js",
-        "license":"SEE LICENSE IN <LICENSE>",
-        "icon":"<i class=\"fa fa-th\"></i>"
-      }
-    },
-    "zeppelin-shell":{
+    "zeppelin-zrinterpreter_2.11":{
       "0.7.0":{
         "type":"INTERPRETER",
-        "name":"Zeppelin: Shell interpreter",
+        "name":"zeppelin-zrinterpreter_2.11",
         "version":"0.7.0",
-        "published":"2017-02-02T17:50:29+09:00",
-        "artifact":"zeppelin-shell@0.7.0",
-        "description":"Zeppelin: Shell interpreter",
+        "published":"2017-02-02T17:54:17+09:00",
+        "artifact":"zeppelin-zrinterpreter_2.11@0.7.0",
+        "description":"R Interpreter for Zeppelin",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-shell"
+        "artifactId":"zeppelin-zrinterpreter_2.11"
       },
       "0.6.2":{
         "type":"INTERPRETER",
-        "name":"Zeppelin: Shell interpreter",
+        "name":"zeppelin-zrinterpreter_2.11",
         "version":"0.6.2",
-        "published":"2016-10-12T18:48:33+09:00",
-        "artifact":"zeppelin-shell@0.6.2",
-        "description":"Zeppelin: Shell interpreter",
+        "published":"2016-10-12T19:09:29+09:00",
+        "artifact":"zeppelin-zrinterpreter_2.11@0.6.2",
+        "description":"R Interpreter for Zeppelin",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-shell"
+        "artifactId":"zeppelin-zrinterpreter_2.11"
       },
       "0.6.1":{
         "type":"INTERPRETER",
-        "name":"Zeppelin: Shell interpreter",
+        "name":"zeppelin-zrinterpreter_2.11",
         "version":"0.6.1",
-        "published":"2016-08-12T20:15:09+09:00",
-        "artifact":"zeppelin-shell@0.6.1",
-        "description":"Zeppelin: Shell interpreter",
+        "published":"2016-08-12T20:23:50+09:00",
+        "artifact":"zeppelin-zrinterpreter_2.11@0.6.1",
+        "description":"R Interpreter for Zeppelin",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-shell"
+        "artifactId":"zeppelin-zrinterpreter_2.11"
+      }
+    },
+    "zeppelin-zrinterpreter_2.10":{
+      "0.7.0":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-zrinterpreter_2.10",
+        "version":"0.7.0",
+        "published":"2017-02-02T17:54:00+09:00",
+        "artifact":"zeppelin-zrinterpreter_2.10@0.7.0",
+        "description":"R Interpreter for Zeppelin",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-zrinterpreter_2.10"
+      },
+      "0.6.2":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-zrinterpreter_2.10",
+        "version":"0.6.2",
+        "published":"2016-10-12T19:09:12+09:00",
+        "artifact":"zeppelin-zrinterpreter_2.10@0.6.2",
+        "description":"R Interpreter for Zeppelin",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-zrinterpreter_2.10"
+      },
+      "0.6.1":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-zrinterpreter_2.10",
+        "version":"0.6.1",
+        "published":"2016-08-12T20:23:42+09:00",
+        "artifact":"zeppelin-zrinterpreter_2.10@0.6.1",
+        "description":"R Interpreter for Zeppelin",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-zrinterpreter_2.10"
+      }
+    },
+    "zeppelin-elasticsearch":{
+      "0.7.0":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-elasticsearch",
+        "version":"0.7.0",
+        "published":"2017-02-02T17:36:36+09:00",
+        "artifact":"zeppelin-elasticsearch@0.7.0",
+        "description":"Zeppelin: Elasticsearch interpreter",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-elasticsearch"
+      },
+      "0.6.2":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-elasticsearch",
+        "version":"0.6.2",
+        "published":"2016-10-12T18:44:51+09:00",
+        "artifact":"zeppelin-elasticsearch@0.6.2",
+        "description":"Zeppelin: Elasticsearch interpreter",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-elasticsearch"
+      },
+      "0.6.1":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-elasticsearch",
+        "version":"0.6.1",
+        "published":"2016-08-12T20:12:58+09:00",
+        "artifact":"zeppelin-elasticsearch@0.6.1",
+        "description":"Zeppelin: Elasticsearch interpreter",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-elasticsearch"
       },
       "0.6.0":{
         "type":"INTERPRETER",
-        "name":"Zeppelin: Shell interpreter",
+        "name":"zeppelin-elasticsearch",
         "version":"0.6.0",
-        "published":"2016-06-28T08:24:01+09:00",
-        "artifact":"zeppelin-shell@0.6.0",
-        "description":"Zeppelin: Shell interpreter",
+        "published":"2016-06-28T08:22:04+09:00",
+        "artifact":"zeppelin-elasticsearch@0.6.0",
+        "description":"Zeppelin: Elasticsearch interpreter",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-shell"
+        "artifactId":"zeppelin-elasticsearch"
       }
     },
     "zeppelin-alluxio":{
       "0.7.0":{
         "type":"INTERPRETER",
-        "name":"Zeppelin: Alluxio interpreter",
+        "name":"zeppelin-alluxio",
         "version":"0.7.0",
         "published":"2017-02-02T17:31:08+09:00",
         "artifact":"zeppelin-alluxio@0.7.0",
@@ -392,7 +468,7 @@
       },
       "0.6.2":{
         "type":"INTERPRETER",
-        "name":"Zeppelin: Alluxio interpreter",
+        "name":"zeppelin-alluxio",
         "version":"0.6.2",
         "published":"2016-10-12T18:42:47+09:00",
         "artifact":"zeppelin-alluxio@0.6.2",
@@ -404,7 +480,7 @@
       },
       "0.6.1":{
         "type":"INTERPRETER",
-        "name":"Zeppelin: Alluxio interpreter",
+        "name":"zeppelin-alluxio",
         "version":"0.6.1",
         "published":"2016-08-12T20:11:59+09:00",
         "artifact":"zeppelin-alluxio@0.6.1",
@@ -416,7 +492,7 @@
       },
       "0.6.0":{
         "type":"INTERPRETER",
-        "name":"Zeppelin: Alluxio interpreter",
+        "name":"zeppelin-alluxio",
         "version":"0.6.0",
         "published":"2016-06-28T08:21:34+09:00",
         "artifact":"zeppelin-alluxio@0.6.0",
@@ -427,68 +503,80 @@
         "artifactId":"zeppelin-alluxio"
       }
     },
-    "snappydata-zeppelin":{
-      "0.6":{
-        "type":"INTERPRETER",
-        "name":"SnappyData",
-        "version":"0.6",
-        "published":"2016-09-21T19:00:43+09:00",
-        "artifact":"snappydata-zeppelin@0.6",
-        "description":"SnappyData distributed data store and execution engine",
-        "license":"Apache-2.0",
-        "icon":"<i class=\"fa fa-rocket\"></i>",
-        "groupId":"io.snappydata",
-        "artifactId":"snappydata-zeppelin"
-      },
-      "0.5":{
-        "type":"INTERPRETER",
-        "name":"SnappyData",
-        "version":"0.5",
-        "published":"2016-09-12T21:58:59+09:00",
-        "artifact":"snappydata-zeppelin@0.5",
-        "description":"SnappyData distributed data store and execution engine",
-        "license":"Apache-2.0",
-        "icon":"<i class=\"fa fa-rocket\"></i>",
-        "groupId":"io.snappydata",
-        "artifactId":"snappydata-zeppelin"
-      }
-    },
-    "zeppelin-bigquery":{
+    "zeppelin-cassandra_2.11":{
       "0.7.0":{
         "type":"INTERPRETER",
-        "name":"Zeppelin: BigQuery interpreter",
+        "name":"zeppelin-cassandra_2.11",
         "version":"0.7.0",
-        "published":"2017-02-02T17:33:02+09:00",
-        "artifact":"zeppelin-bigquery@0.7.0",
-        "description":"Zeppelin: BigQuery interpreter",
+        "published":"2017-02-02T17:35:53+09:00",
+        "artifact":"zeppelin-cassandra_2.11@0.7.0",
+        "description":"Zeppelin cassandra support",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-bigquery"
+        "artifactId":"zeppelin-cassandra_2.11"
       },
       "0.6.2":{
         "type":"INTERPRETER",
-        "name":"Zeppelin: BigQuery interpreter",
+        "name":"zeppelin-cassandra_2.11",
         "version":"0.6.2",
-        "published":"2016-10-12T18:43:33+09:00",
-        "artifact":"zeppelin-bigquery@0.6.2",
-        "description":"Zeppelin: BigQuery interpreter",
+        "published":"2016-10-12T18:44:03+09:00",
+        "artifact":"zeppelin-cassandra_2.11@0.6.2",
+        "description":"Zeppelin cassandra support",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-bigquery"
+        "artifactId":"zeppelin-cassandra_2.11"
       },
       "0.6.1":{
         "type":"INTERPRETER",
-        "name":"Zeppelin: BigQuery interpreter",
+        "name":"zeppelin-cassandra_2.11",
         "version":"0.6.1",
-        "published":"2016-08-12T20:12:19+09:00",
-        "artifact":"zeppelin-bigquery@0.6.1",
-        "description":"Zeppelin: BigQuery interpreter",
+        "published":"2016-08-12T20:12:35+09:00",
+        "artifact":"zeppelin-cassandra_2.11@0.6.1",
+        "description":"Zeppelin cassandra support",
         "license":"Apache-2.0",
         "icon":"<i class=\"fa fa-rocket\"></i>",
         "groupId":"org.apache.zeppelin",
-        "artifactId":"zeppelin-bigquery"
+        "artifactId":"zeppelin-cassandra_2.11"
+      }
+    },
+    "zeppelin-ignite_2.10":{
+      "0.7.0":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-ignite_2.10",
+        "version":"0.7.0",
+        "published":"2017-02-02T17:37:41+09:00",
+        "artifact":"zeppelin-ignite_2.10@0.7.0",
+        "description":"Zeppelin: Apache Ignite interpreter",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-ignite_2.10"
+      },
+      "0.6.2":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-ignite_2.10",
+        "version":"0.6.2",
+        "published":"2016-10-12T18:45:59+09:00",
+        "artifact":"zeppelin-ignite_2.10@0.6.2",
+        "description":"Zeppelin: Apache Ignite interpreter",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-ignite_2.10"
+      },
+      "0.6.1":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-ignite_2.10",
+        "version":"0.6.1",
+        "published":"2016-08-12T20:13:35+09:00",
+        "artifact":"zeppelin-ignite_2.10@0.6.1",
+        "description":"Zeppelin: Apache Ignite interpreter",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-ignite_2.10"
       }
     }
   }
