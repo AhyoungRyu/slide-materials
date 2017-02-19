@@ -479,6 +479,70 @@
         "artifactId":"zeppelin-livy"
       }
     },
+    "snappydata-zeppelin":{
+      "latest":{
+        "type":"INTERPRETER",
+        "name":"snappydata-zeppelin",
+        "version":"0.6",
+        "published":"2016-09-21T19:00:43+09:00",
+        "artifact":"snappydata-zeppelin@0.6",
+        "description":"SnappyData distributed data store and execution engine",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"io.snappydata",
+        "artifactId":"snappydata-zeppelin"
+      },
+      "0.5":{
+        "type":"INTERPRETER",
+        "name":"snappydata-zeppelin",
+        "version":"0.5",
+        "published":"2016-09-12T21:58:59+09:00",
+        "artifact":"snappydata-zeppelin@0.5",
+        "description":"SnappyData distributed data store and execution engine",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"io.snappydata",
+        "artifactId":"snappydata-zeppelin"
+      }
+    },
+    "zeppelin-bigquery":{
+      "latest":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-bigquery",
+        "version":"0.7.0",
+        "published":"2017-02-02T17:33:02+09:00",
+        "artifact":"zeppelin-bigquery@0.7.0",
+        "description":"Zeppelin: BigQuery interpreter",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-bigquery"
+      },
+      "0.6.2":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-bigquery",
+        "version":"0.6.2",
+        "published":"2016-10-12T18:43:33+09:00",
+        "artifact":"zeppelin-bigquery@0.6.2",
+        "description":"Zeppelin: BigQuery interpreter",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-bigquery"
+      },
+      "0.6.1":{
+        "type":"INTERPRETER",
+        "name":"zeppelin-bigquery",
+        "version":"0.6.1",
+        "published":"2016-08-12T20:12:19+09:00",
+        "artifact":"zeppelin-bigquery@0.6.1",
+        "description":"Zeppelin: BigQuery interpreter",
+        "license":"Apache-2.0",
+        "icon":"<i class=\"fa fa-rocket\"></i>",
+        "groupId":"org.apache.zeppelin",
+        "artifactId":"zeppelin-bigquery"
+      }
+    },
     "zeppelin-zrinterpreter_2.11":{
       "latest":{
         "type":"INTERPRETER",
